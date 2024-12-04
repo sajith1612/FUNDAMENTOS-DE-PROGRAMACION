@@ -1,17 +1,16 @@
-# programa 1 "compuertas NOT"
+# programa 2 "programa que si chotis y choto van a una fiesta, no hay fiesta"
 
+def verificar_fiestas(chotis, choto):
+# verificar si ambos chotis y choto estan presentes
+if chotis and choto:
+return "no hay fiesta"
+else: 
+return "la fieta esta en marcha"
 
-def compuerta_not(entrada):
- # la salida = 1 - entradad
- return salida
+# ejemplo de uso
+if_name_== "_main_":
+chotis= input("esta chotis en la fiesta (si/no):").str().lower() == "si"
+choto= input("esta chotis en la fiesta (si/no):").str().lower() == "no"
 
- # ejemplo de uso
- if _name_ == "_main_":
- entrada = int (input("introduce 0 o 1"))
- if entrada not in [0,1]:
- print("entrada no valida, por favor, introduce 0 o 1")
-
- else:
-
- salida = compuerta_not(entrada)
- print(f"entrada: {entrada}, salida: {salida}")
+resultado = varifica_fiesta(chotis, choto)
+print(resultado)
