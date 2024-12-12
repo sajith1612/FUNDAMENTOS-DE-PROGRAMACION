@@ -1,18 +1,37 @@
-# p-3 funcion rango
+# P-3 Función rango
 # 04-11-2024
-# sajith alexandro montano grimaldo
+# Sajith Alexandro Montano Grimaldo
 
-print("imprime los valores del 0 al 9")
+print("Imprime los valores del 0 al 9")
 x = range(10)
-for num in x:
-    print(num)
 
-print("\n imprime los valores del 5 al 15")
+# Encabezado de la tabla para el primer rango
+print(f"{'Iteración':<12}{'Valor'}")
+print('-' * 20)
+
+# Imprimir los valores del rango 0-9
+for i, num in enumerate(x, start=1):
+    print(f"{i:<12}{num}")
+
+print("\nImprime los valores del 5 al 15")
 x1 = range(5, 16)
-for num in x1:
-    print(num)
 
-print("\n imprime los pares del 10 al 20")
+# Encabezado de la tabla para el segundo rango
+print(f"{'Iteración':<12}{'Valor'}")
+print('-' * 20)
+
+# Imprimir los valores del rango 5-15
+for i, num in enumerate(x1, start=1):
+    print(f"{i:<12}{num}")
+
+print("\nImprime los pares del 10 al 20")
 x2 = range(10, 21, 2)
-for num in x2:
-    print(num)
+
+# Encabezado de la tabla para el tercer rango
+print(f"{'Iteración':<12}{'Valor'}")
+print('-' * 20)
+
+# Imprimir los valores del rango de los números pares del 10 al 20
+for i, num in enumerate(x2, start=1):
+    print(f"{i:<12}{num}")
+
